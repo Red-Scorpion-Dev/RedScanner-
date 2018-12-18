@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/scan_details_device_state" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scan_details_secure_message" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scan_details_number_tests" />
+        <TextView android:id="@id/scan_details_number_tests" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="10" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scan_details_number_failed_tests" />
+        <TextView android:id="@id/scan_details_failed_tests" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="10" />
+    </LinearLayout>
+</LinearLayout>
